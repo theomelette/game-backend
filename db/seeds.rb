@@ -30,7 +30,7 @@ Metalgear = Game.create!(name: "Metal Gear Solid 5", image: "https://images-na.s
 
 
 review1 = Review.create!(user_id: 1, game_id: 1, rating: 7, comments: "Long and sometimes confusing.")
-review2 = Review.create!(user_id: 1, game_id: 2, rating: 8, comments: "Compelling but sometimes confusing storyt")
+review2 = Review.create!(user_id: 1, game_id: 2, rating: 8, comments: "Compelling but sometimes confusing story")
 review3 = Review.create!(user_id: 1, game_id: 3, rating: 9, comments: "Remaster of a Yoko Taro classic")
 review4 = Review.create!(user_id: 1, game_id: 4, rating: 10, comments: "Remaster of the first From souls-like game.")
 review5 = Review.create!(user_id: 1, game_id: 5, rating: 8, comments: "Great open world samurai simulator")
