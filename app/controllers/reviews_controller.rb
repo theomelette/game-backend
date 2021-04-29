@@ -5,7 +5,6 @@ class ReviewsController < ApplicationController
 
       end
    
-
       def show
         @reviews = Review.find(params[:id])
         render json: @reviews
@@ -13,9 +12,10 @@ class ReviewsController < ApplicationController
     
   
       def create
-        @review = Review.create(review_params)
-        @review.save
-          render json: @review
+       
+        @game = Game.create(params.require(:games).permit(:name, :image))
+        @review = Review.create(review_params.merge(game_id:@game.id))
+        render json: @review
       end
    
       def update

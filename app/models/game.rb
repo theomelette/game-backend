@@ -1,4 +1,4 @@
 class Game < ApplicationRecord
     has_many :reviews
-    has_many :games, through: :users
+    has_many :users, through: :reviews
 end
