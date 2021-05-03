@@ -28,14 +28,18 @@ Monster = Game.create!(name: "Monster Hunter World", image: "https://images-na.s
 Finalfantasy = Game.create!(name: "Final Fantasy 15", image: "https://images-na.ssl-images-amazon.com/images/I/91IQSCL7wtL._SL1500_.jpg")
 Metalgear = Game.create!(name: "Metal Gear Solid 5", image: "https://images-na.ssl-images-amazon.com/images/I/911Y1BkwReL._SL1500_.jpg")
 
-
-review1 = Review.create!(user_id: 1, game_id: 1, rating: 7, comments: "Long and sometimes confusing.")
+review11 = Review.create!(user_id: 1, game_id: 14, rating: 10, comments: "My favorite series!")
+review1 = Review.create!(user_id: 1, game_id: 1, rating: 9, comments: "Great JRPG. Long and good story.")
 review2 = Review.create!(user_id: 1, game_id: 2, rating: 8, comments: "Compelling but sometimes confusing story")
 review3 = Review.create!(user_id: 1, game_id: 3, rating: 9, comments: "Remaster of a Yoko Taro classic")
 review4 = Review.create!(user_id: 1, game_id: 4, rating: 10, comments: "Remaster of the first From souls-like game.")
 review5 = Review.create!(user_id: 1, game_id: 5, rating: 8, comments: "Great open world samurai simulator")
 review6 = Review.create!(user_id: 1, game_id: 6, rating: 7, comments: "Scary and gory.")
-review7 = Review.create!(user_id: 1, game_id: 7, rating: 10, comments: "Best game ever!")
+review7 = Review.create!(user_id: 1, game_id: 7, rating: 6, comments: "Kinda boring.")
+review8 = Review.create!(user_id: 1, game_id: 8, rating: 7, comments: "Just OK.")
+review9 = Review.create!(user_id: 1, game_id: 9, rating: 10, comments: "Amazing game!")
+review10 = Review.create!(user_id: 1, game_id: 10, rating: 9, comments: "Awesome RPG!")
+
 
 
 
