@@ -28,7 +28,7 @@ Monster = Game.create!(name: "Monster Hunter World", image: "https://images-na.s
 Finalfantasy = Game.create!(name: "Final Fantasy 15", image: "https://images-na.ssl-images-amazon.com/images/I/91IQSCL7wtL._SL1500_.jpg")
 Metalgear = Game.create!(name: "Metal Gear Solid 5", image: "https://images-na.ssl-images-amazon.com/images/I/911Y1BkwReL._SL1500_.jpg")
 
-review11 = Review.create!(user_id: 1, game_id: 14, rating: 10, comments: "My favorite series! SNAAAAAKKKKEEEEEEEE", likes: 2)
+review11 = Review.create!(user_id: 1, game_id: 14, rating: 10, comments: "My favorite series! SNAAAAAKKKKEEEEEEEE", likes: 0)
 review1 = Review.create!(user_id: 1, game_id: 1, rating: 9, comments: "Great JRPG. Long and good story. I wish high school was actually this interesting", likes: 0)
 review2 = Review.create!(user_id: 1, game_id: 2, rating: 5, comments: "Compelling but sometimes confusing story. Time travel stuff is meh.", likes: 0)
 review3 = Review.create!(user_id: 1, game_id: 3, rating: 9, comments: "Remaster of a Yoko Taro classic.", likes: 0)
